@@ -1,0 +1,343 @@
+*{margin: 0;padding: 0;}
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000;
+    text-align: left;
+    background-color: #f6f8f9;
+}
+div {
+	display: block;
+}
+.header
+	{
+    position: relative;
+    background-color: hsl(0,0%,0%);
+}
+
+.topnov{
+	width: 100%;
+	height: 54px;
+	 background-color:#333;
+	position: relative;
+	border-bottom: 1px solid black;
+    font-family:sans-serif;
+    font-size: 15px;
+}
+.dropdown{
+	/*top: 55.5px;*/
+}
+.topnov ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+	float: right;
+}
+.topnov ul li {
+  display: inline-block;/*  border-right:1px solid #bbb;*/
+	/*height: 50px;*/
+	position: relative;
+	 text-align: center;
+	color: white;
+	line-height: 45px;
+	padding: 1px 35px;
+	/*min-width: 160px;*/
+	cursor: pointer;
+}
+.topnov ul li a {
+  color: #BFBFBF;
+  text-decoration: none;
+}
+.topnov ul li:hover > a:not(.active):not(.active2) {
+  color: #fff;
+	cursor: pointer;
+}
+.active1 {
+  background-color: #4CAF50;
+}
+.active2 {
+	background-color: #4F4F4F;
+	border-radius: 5px;
+	margin-right: 4px;
+}
+.active,.active2:hover{
+	cursor: pointer;
+}
+.dropdown ul{
+	float: left;
+}
+.dropdown ul ul{
+	display: none;
+	position:fixed;
+	background-color: #E8E8E8;
+	z-index: 2;
+}
+.dropdown ul ul li {}
+.dropdown ul ul li a{
+  color: black;
+	display: block;
+}
+.dropdown ul li:hover > ul {
+	display: block;
+}
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+/*  ---END of Menu BAR----     */
+.main-content{
+	position: relative!important;
+}
+tb-container{
+	overflow: hidden;
+}
+/* ---- slideshow----*/
+.mySlides {display: none;}
+img {vertical-align: middle;
+}
+/* Slideshow container */
+.slideshow-container {
+ /* max-width: 1000px;*/
+  position: relative;
+  margin:1px 0;
+	background-color: #BC4873;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #3F4047;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 0;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active {
+  background-color: #717171;
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+/*.links {
+	margin: 0 0 8px;
+	width: 100%;
+	background-color: #EBF4F6;
+	position: absolute;
+}
+h1{
+	text-align:center;
+	margin-top:42px;
+}
+p {
+	text-align: center;
+	color: #646f79;
+	margin: 0 0 15px;
+}*/
+.ui-wrapper {
+	margin: 0 auto;
+	max-width: 1005px;
+}
+@media (min-width: 768px){
+	.ui-wrapper {
+    padding: 60px 15px;
+}
+}
+.ui-section-caption {
+    text-align: center;
+    padding: 0 0 15px;
+}
+@media (min-width: 768px){
+	h1 {
+    font-size: 2rem;
+    line-height: 3rem;
+}
+}
+h1 {
+    color: #000;
+    font-weight: 600;
+}
+.ui-section-caption p {
+    color: #646f79;
+}
+@media (min-width: 768px){
+	p {
+    font-size: .875rem;
+    margin: 0 0 15px;
+    line-height: 1.3125rem;
+}
+}
+p {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.row {
+	display:flex;
+    flex-wrap: wrap;
+    margin: 0 -15px; /* 0 15px */
+}
+@media (min-width: 768px){
+	.col-md-6 {
+    -webkit-box-flex: 0;
+    flex: 0 0 46%;
+    max-width: 46%;
+}
+}
+.col-md-6 {
+	position: relative;
+    width: 100%;
+	padding: 0 15px;
+}
+a[class*=ui-blurb] {
+    display: flex;
+    color: #000;
+    transition: all .5s cubic-bezier(.165,.84,.44,1);
+}
+@media (min-width: 768px){
+	.ui-blurb {
+    min-height: 197px;
+    padding: 30px;
+    margin: 0 0 22.5px;
+}
+}
+@media (min-width: 768px){
+.ui-blurb--course {
+    background-image: url(#)!important;
+	}
+}
+.ui-blurb--course {
+    background-color: #e2edfd;
+}
+@media (min-width: 768px){
+.ui-blurb--test-series {
+    background-image: url(/assets/img/landing/blurb-test-series.png)!important;
+}
+}
+.ui-blurb--test-series {
+    background-color: #def6fa;
+}
+@media (min-width: 768px){
+.ui-blurb--practise {
+    background-image: url(/assets/img/landing/blurb-practice.png)!important;
+}
+}
+.ui-blurb--practise {
+    background-color: #e5f4ec;
+    background-size: 50%;
+    background-position: right 100%;
+}
+@media (min-width: 768px){
+.ui-blurb--exams {
+    background-image: url(/assets/img/landing/blurb-exams.png)!important;
+}
+}
+.ui-blurb--exams {
+    background-color: #f0ecfd;
+    background-size: 45%;
+    background-position: 95%;
+}
+.ui-blurb {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    font-size: .875rem;
+	padding: 15px;
+	margin: 0 0 7.5px;
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+    background-size: contain;
+}
+@media (min-width: 768px){
+.ui-blurb .ui-label {
+    display: block;
+}
+}
+div[class*=ui-label] {
+    margin-bottom: 7.5px;
+}
+.ui-label {
+    color: #646f79;
+    font-size: .875rem;
+    line-height: 1.20312rem;
+}
+@media (min-width: 768px){
+.ui-blurb h3 {
+    max-width: 50%;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    -webkit-box-flex: 1;
+    flex: 1;
+}
+}
+.ui-blurb h3 {
+    margin-bottom: 0;
+}
+.text-link {
+    color: #0ad0f4!important;
+    font-size: .875rem;
+    font-weight: 400;
+}
