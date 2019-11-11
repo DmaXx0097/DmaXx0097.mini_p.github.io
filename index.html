@@ -13,6 +13,7 @@
 			<ul>
 		  <li class="active1"><a  href="#home">Home</a></li>
 		  <li><a href="#news">About</a></li>
+				<li><a href="#Register">Register</a></li>
 		  <li class="active2"><a href="#about">Sign In</a></li>
 		</ul>
 	</div>
@@ -40,11 +41,11 @@
 		<!-- SLideshow -->
 	<div class="slideshow-container">
 
-<div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
-  <img src="1.webp" alt="1" style="width:100%">
-  <div class="text">Caption Text</div>
-</div>
+		<div class="mySlides fade">
+		  <div class="numbertext">1 / 3</div>
+		  <img src="1.webp" alt="1" style="width:100%">
+		  <div class="text">Caption Text</div>
+		</div>
 
 <div class="mySlides fade">
   <div class="numbertext">2 / 3</div>
@@ -58,19 +59,19 @@
   <div class="text">Caption Three</div>
 </div>
 
-<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-<a class="next" onclick="plusSlides(1)">&#10095;</a>
+<!--<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>-->
 
 </div>
 <br>
 
 <div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot"></span> 
+  <span class="dot" ></span> 
+  <span class="dot"></span> 
 </div>
 	<!--     End of Slide Show    -->
-	
+	<!--onclick="currentSlide(2)"-->
 	</section>
 	<!-- End of SlideShow  -->
 	<!--  Exam Tabs  -->
@@ -131,7 +132,7 @@ function showSlides() {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 3000); // Change image every 2 seconds
+  setTimeout(showSlides, 4000); // Change image every 2 seconds
 }
 </script>
 </body>

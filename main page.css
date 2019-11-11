@@ -12,8 +12,7 @@ body {
 div {
 	display: block;
 }
-.header
-	{
+.header{
     position: relative;
     background-color: hsl(0,0%,0%);
 }
