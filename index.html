@@ -4,17 +4,17 @@
 <meta charset="utf-8">
 <title>DSVK Exam Up</title>
 	<link rel="stylesheet" href="main page.css">
+	<link rel="stylesheet" href="Pop-up.css">
 </head>
 
 <body>
 	<!-- Menu Bar -->
 	<section class="header">
 		<div class="topnov">
+			<img src="svdk2.png" alt="site-logo" class="contain">
 			<ul>
 		  <li class="active1"><a  href="#home">Home</a></li>
 		  <li><a href="#news">About</a></li>
-				<li><a href="#Register">Register</a></li>
-		  <li class="active2"><a href="#about">Sign In</a></li>
 		</ul>
 	</div>
 	<div class="topnov dropdown">
@@ -30,11 +30,44 @@
 		  <li><a href="#news">Courses</a></li>
 			<li><a href="#news">Test Series</a></li>
 			<li><a href="#news">Quizzess</a></li>
+			<li class="active2"><a href="#Register">Register</a></li>
+		  <li class="active2" onclick="document.getElementById('id1').style.display='block'"><a href="#about">Sign In</a></li>
 		</ul>
 	
 	</div>
 	</section>
 	<!-- End of Menu Bar -->
+	<!--Login Pop up html code down below-->
+	
+	
+	<div id="id1" class="box">
+	 <form class="modal-content animate" action="#" method="get">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id1').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="ava.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="boxfear">
+      <label for="uname"><b>Username</b></label>
+      <input class="infield" type="text" placeholder="Enter Username" name="uname" required>
+      <br>
+      <label for="psw"><b>Password</b></label>
+      <input class="infield" type="password" placeholder="Enter Password" name="psw" required>
+      <br>
+      <button class="bn" type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="boxfear" style="background-color:#f1f1f1">
+      <button type="bn" onclick="document.getElementById('id1').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw"><a href="#">Forgot password?</a></span>
+    </div>
+  </form>
+	</div>
+	
+	
 <div class="main-content tb-container">
 		<!--  SlideShow  -->
 	<section>
@@ -115,6 +148,18 @@
 	
 </div>
 	<script>
+		
+		// Get the modal
+var modal = document.getElementById('id1');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+// -------------------------------------------------------------------
+		
 var slideIndex = 0;
 showSlides();
 
