@@ -1,0 +1,106 @@
+.container-pop-up{
+	  display: none; /* Hidden by default */
+      text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    padding: 0 8px;
+    box-sizing: border-box;
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.8);
+	padding-top: 60px;
+	z-index: 2000;
+}
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #fff;
+  font-size: 35px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+.content{
+	position: relative;
+    display: inline-block;
+    /*vertical-align: middle;*/
+    margin: 0 auto;
+    z-index: 1045;
+	transition: all 0.15s ease-out;
+	width: 40%;
+}
+.pop-head{
+	background-color: #333;
+	border: none;
+	color: white;
+	padding: 24px 0;
+}
+.container-pop-up .content .pop-head img{
+	max-height: 50%;
+	max-width: 50%;
+}
+.pop-down{
+	background-color: white;
+    border: 1px solid #dedede;
+	overflow: auto;
+	color: #444;
+}
+.form-field{
+	text-align: left;
+	max-width: 100%;
+	padding: 0 20px;
+}
+.form-field input{
+	width: 100%;
+	height: 40px;
+	border: 1px groove rgba(231,223,223,1.00); 
+	border-radius: 6px;
+}
+/*label {
+    font-size: 13px;
+    line-height: 18px;
+}*/
+.label-link{
+	margin-top: 22px;
+	margin-bottom: 8px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.label-link a{
+	text-decoration: none;
+	color: #42899B;
+	font-weight: none;
+}
+[type=submit]{
+	border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+}
+.sgn{
+	margin: 22px 0; 
+	width: 50%;
+	height: 50px;
+	background-color: #82b440;
+	border-radius: 6px;
+	box-shadow: 0 2px 0 #6f9a37;
+}
+.pop-down p{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.pop-down p a{
+	text-decoration: none;
+	color: #4C97AA;
+}
