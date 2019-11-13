@@ -104,3 +104,21 @@
 	text-decoration: none;
 	color: #4C97AA;
 }
+/* ------About Us css down below ------  */
+.imagecontainer{
+	width: 100%;
+}
+.about{
+	margin:25px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: #646f79;
+    font-size: .875rem;
+    line-height: 1.20312rem;
+	text-align: center;
+	padding: 0 60px;
+}
+.about p{
+	font-size: 1.2rem;
+	word-spacing: 2px;
+	line-height: 1.8rem;
+}

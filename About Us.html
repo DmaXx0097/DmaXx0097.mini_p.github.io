@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>About us</title>
+	<link rel="stylesheet" href="main page.css">
+	<link rel="stylesheet" href="pop-pup.css">
+</head>
+
+<body>
+	
+	<!-- Menu Bar -->
+	<section class="header">
+		<div class="topnov">
+			<img src="svdk2.png" alt="site-logo" class="contain">
+			<ul>
+		  <li class="active1"><a  href="index.html">Home</a></li>
+		  <li><a href="#news">About</a></li>
+			<li class="active2" onclick="document.getElementById('id1').style.display='block'"><a href="#about">Sign In</a></li>
+		</ul>
+	</div>
+	<div class="topnov dropdown">
+		<ul>
+		  <li><a href="#home">All Exams</a>
+				  <ul>
+					<li><a href="#">Engineering</a></li>
+					<li><a href="">Teaching</a></li>
+					<li><a href="">Civil Services</a></li>
+					<li><a href="">Defence &amp; Service</a></li>
+				</ul>
+			</li>
+		  <li><a href="#news">Courses</a></li>
+			<li><a href="#news">Test Series</a></li>
+			<li><a href="#news">Quizzess</a></li>
+		</ul>
+	
+	</div>
+	</section>
+	<!-- End of Menu Bar -->
+	<!--Login Pop up html code down below-->
+	
+	
+	<div id="id1" class="container-pop-up">
+		<div class="content">
+			<span onclick="document.getElementById('id1').style.display='none'" class="close" title="Close Modal">&times;</span>
+				<div class="pop-head">	
+				<img src="svdk2.png" alt="logo-op">
+			</div>
+			<div class="pop-down">
+				<h2>Great to have you Back</h2>
+				<div class="form-field">
+					<div class="label-link">
+						<label style="font-weight: bold" for="Username">Username</label>
+						<a style="float: right" href="#">Remind me</a>
+					</div>
+					<input type="text">
+					<div class="label-link">
+						<label style="font-weight: bold" for="Password">Password</label>
+						<a style="float: right" href="#">Reset</a>
+					</div>
+					<input type="text">
+				</div>	
+				<input type="submit" class="sgn" value="Sign to your account">
+				<p> New here &#63; <a href="">Register now</a></p>
+			</div>
+		</div>
+	</div>
+	
+	<div class="imagecontainer">
+		<img src="job.jpg" alt="abt-img">
+	</div>
+	<div class="about">
+		<h1>About US</h1>
+		<p>
+			SVDK is India's largest exam preparation destination, loved by millions of aspirants across the country. Through our website and app, we help more than 1.1 crore registered students to prepare actively for various exams &amp; score better.
+
+At our heart lies the belief that people prepare better when they prepare together; by questioning, helping &amp; challenging each other. Hence at the very core of our being lies a community of students &amp; expert mentors. Established in the year 2015, Gradeup belongs to Times Internet. We have established &amp; nurtured highly engaging exam-specific communities of students and mentors for SSC, Banking, Railways, Teaching, JEE, GATE, NEET, UPSC, Defense and State level exams. The Gradeup community lets users collectively solve each other’s doubts, and interactively learn and compete with each other through quizzes and mock tests. It gives them access to prep material &amp; previous years papers to score better in their exams.
+
+We also appreciate the value of structured preparation, not just the quantity of it but also the approach. It is only by preparing actively everyday &amp; making small but significant headways can one ensure continuous improvement.
+		</p>
+	</div>
+	
+</body>
+</html>
