@@ -1,0 +1,105 @@
+/*marquee*/
+.scroll_bar {
+	width: 100%;
+	height: 20px;
+	background-color:rgba(0,0,0,0.05);
+	margin-top: 13px;
+}
+.timer {
+	display: flex;
+	justify-content:center;
+	margin-top:4px;
+	
+}
+.tik-tik {
+	width: 50%;
+	height: 40px;
+	background-color: rgba(252,189,32,0.6);
+	margin-right:5px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	font-size: 1.4em;
+}
+.review_analysis {
+	height: 330px;
+	background-color: rgba(250,250,250,0.6);
+	border: 1px groove rgba(0,0,0,0.14);
+	margin: 0 0 0 14px;
+	padding-bottom: 20px;
+}
+.analysis {
+	width: 100%;
+	height: 90px;
+	background-color: rgba(250,250,250,0.6);
+	border: 1px groove rgba(0,0,0,0.14);
+}
+.Qw_analysis {
+	position: relative;
+	height: 330px;;
+	background-color: rgba(250,250,250,0.6);
+	border: 1px groove rgba(0,0,0,0.14);
+	margin: 23px 12px 20px 14px;
+}
+.Q_analysis {
+	width: 100%;
+	height: 40px;
+	background-color: rgba(250,250,250,0.6);
+	border: 1px groove rgba(0,0,0,0.14);
+}
+.Q_analysis p {
+	font-size: 1.4em;
+	text-align: center;
+	font-family:monospace;
+}
+.two{
+	height: auto;
+}
+.analysis p {
+	font-size: 1.4em;
+	text-align: center;
+	font-family:monospace;
+}
+.qn_nm{
+	padding: 20px;
+}
+.Q_content{
+	overflow: hidden;
+	height: 370px;
+	
+}
+.qn_nm ul li{
+	text-align: center;
+	border: 1px solid #333;
+	width: 30px;
+	height: 28px;
+	display: inline-flex;
+	text-decoration: none;
+	padding: 15px 0 6px 17px;
+	margin: 20px 15px 0 15px;
+	border-radius: 50%;
+}
+.qn_nm ul a{
+	text-decoration: none;
+	color: black;
+}
+.center{
+	text-align: center;
+}
+.Q_inner{
+	padding:0 0 0 20px;
+}
+.Q_inner a,.Q_inner input[type="submit"]{
+	padding: 8px;
+	background-color: #82b440;
+	border-radius: 6px;
+	box-shadow: 0 2px 0 #6f9a37;
+	color: white;
+	text-decoration: none;
+}
+.Outer{
+	margin-left: 40px;
+	position: relative;
+	display: flex;
+	
+}

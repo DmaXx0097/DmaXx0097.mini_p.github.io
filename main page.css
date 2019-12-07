@@ -63,6 +63,9 @@ div {
   color: #fff;
 	cursor: pointer;
 }
+.dropdown ul ul li:hover{
+	background-color: rgba(208,208,208,0.88);
+}
 .active1 {
   background-color: #4CAF50;
 }
@@ -80,16 +83,27 @@ div {
 .dropdown ul ul{
 	display: none;
 	position:fixed;
-	background-color: #E8E8E8;
+	background-color: #DBD5D0;
 	z-index: 2;
+	width: 100%;
+	text-align: left;
+	left: 0;
+	font-size: 13.5px;
 }
-.dropdown ul ul li {}
+.dropdown ul ul li {
+	padding-top: 0;
+	margin-top: 0;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
 .dropdown ul ul li a{
-  color: black;
-	display: block;
+  color: black;	
 }
 .dropdown ul li:hover > ul {
 	display: block;
+}
+.dropdown ul ul ul{
+	background-color: #EDF5CE;
 }
 @media screen and (max-width: 600px) {
   ul.topnav li.right, 

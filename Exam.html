@@ -1,0 +1,335 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Exam-page</title>
+	<link rel="stylesheet" href="exam-page.css">
+<link rel="stylesheet" href="main page.css">
+	<link rel="stylesheet" href="pop-pup.css">
+</head>
+
+<body>
+	<!--menu bar-->
+	<section class="header">
+		<div class="topnov">
+			<img src="svdk2.png" alt="site-logo" class="contain">
+			<ul>
+		  <li class="active1"><a  href="index.html">Home</a></li>
+		  <li><a href="About Us.html">About</a></li>
+			<li class="active2" onclick="document.getElementById('id1').style.display='block'"><a href="#about">Sign In</a></li>
+		</ul>
+	</div>
+	<div class="topnov dropdown">
+		<ul>
+		  <li><a href="#home">All Exams</a>
+				  <ul>
+					<li><a href="#">Engineering</a>
+						<ul>
+							<li><a href="">GATE CE</a></li>
+							<li><a href="">GATE CS</a></li>
+							<li><a href="">GATE EC</a></li>
+							<li><a href="">GATE EE</a></li>
+							<li><a href="">GATE IN</a></li>
+							<li><a href="">GATE ME</a></li>
+							<li><a href="">GATE PI</a></li>
+							<li><a href="">ISRO</a></li>
+							<li><a href="">BITSAT 2020</a></li>
+							<li><a href="">JEE Advanced</a></li>
+							<li><a href="">JEE MAIN</a></li>
+						</ul>
+					</li>
+					<li><a href="">Teaching</a>
+						<ul>
+							<li><a href="">CSIR NET</a></li>
+							<li><a href="">CTET</a></li>
+							<li><a href="">DSSSB</a></li>
+							<li><a href="">REET</a></li>
+							<li><a href="">UGC NET</a></li>
+						</ul>
+					</li>
+					<li><a href="">Civil Services</a>
+						<ul>
+							<li><a href="">RPSC</a></li>
+							<li><a href="">UUPSC</a></li>
+							<li><a href="">UPPCS</a></li>
+						</ul>
+					</li>
+					<li><a href="">Defence &amp; Police</a>
+						<ul>
+							<li><a href="">AFCAT</a></li>
+							<li><a href="">Air Force Group X</a></li>
+							<li><a href="">Air Force Group Y</a></li>
+							<li><a href="">CDS</a></li>
+							<li><a href="">CISF Constable</a></li>
+							<li><a href="">DRDO Technician A</a></li>
+							<li><a href="">NAVY AA</a></li>
+							<li><a href="">Navy Tradesman Mate</a></li>
+							<li><a href="">Delhi Police</a></li>
+							<li><a href="">HSSC JE</a></li>
+							<li><a href="">UPPRPB</a></li>
+							<li><a href="">TSLPRB</a></li>
+							<li><a href="">CSBC</a></li>
+							<li><a href="">BPSSC</a></li>
+							<li><a href="">Bihar Police SI</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+		  <li><a href="#news">Courses</a></li>
+			<li><a href="#news">Test Series</a></li>
+			<li><a href="#news">Quizzess</a></li>
+		</ul>
+	
+	</div>
+	</section>
+	<!--END of menu bar-->
+	<!--Login Pop up html code down below-->
+	<div id="id1" class="container-pop-up">
+		<div class="content">
+			<span onclick="document.getElementById('id1').style.display='none'" class="close" title="Close Modal">&times;</span>
+				<div class="pop-head">	
+				<img src="svdk2.png" alt="logo-op">
+			</div>
+			<div class="pop-down">
+				<h2>Great to have you Back</h2>
+				<div class="form-field">
+					<div class="label-link">
+						<label style="font-weight: bold" for="Username">Username</label>
+						<a style="float: right" href="#">Remind me</a>
+					</div>
+					<input type="text">
+					<div class="label-link">
+						<label style="font-weight: bold" for="Password">Password</label>
+						<a style="float: right" href="#">Reset</a>
+					</div>
+					<input type="text">
+				</div>	
+				<input type="submit" class="sgn" value="Sign to your account">
+				<p> New here &#63; <a href="">Register now</a></p>
+			</div>
+		</div>
+	</div>
+	<!--End of popup-->
+	<div class="scroll_bar"></div> <!--marquee logic-->
+	<!--timer-->
+				<div class="timer">
+					<div class="tik-tik">
+						<i style="margin-right: 15px;">alarm-clock</i><div id="ten-countdown"></div>
+					</div>
+				</div>
+				<!--End of timer-->
+	<section class="Outer">
+
+			<div class="Q_content">
+						
+				<form action="#">
+					<br>
+					<br>
+					<br id="one">
+					<div class="review_analysis two">
+					<div class="analysis two">
+						<p><b>Q1:</b> The search engine's business model ______ around the fulcrum of trust? </p>
+					</div>
+						<div class="Q_inner">
+							<input type="radio" name="q1" value="sinks">sinks<br><br>
+							<input type="radio" name="q1" value="revolves">revolves<br><br>
+							<input type="radio" name="q1" value="bursts">bursts<br><br>
+							<input type="radio" name="q1" value="plays">plays<br><br>
+							<a href="#two" class="button">Next Question</a>
+						</div>
+					</div>
+					<br>
+					<br id="two">
+					<div class="review_analysis two">
+					<div class="analysis two">
+						<p><b>Q2:</b> The expenditure on the project ____ as follows:equipments Rs.20 lakhs, salaries Rs.12 lakhs and contingency Rs.3 lakhs? </p>
+					</div>
+						<div class="Q_inner">
+							<input type="radio" name="q1" value="breaks">breaks<br><br>
+							<input type="radio" name="q1" value="break">break<br><br>
+							<input type="radio" name="q1" value="breaks down">breaks down<br><br>
+							<input type="radio" name="q1" value="break down">break down<br><br>
+							<a href="#one" class="button">Prev Question</a>
+							<a href="#three" class="button">Next Question</a>
+						</div>
+					</div>
+					<br>
+					<br>
+					<br id="three">
+					<div class="review_analysis two">
+					<div class="analysis two">
+						<p><b>Q3:</b> A court is to judge as _____ is to a teacher? </p>
+					</div>
+						<div class="Q_inner">
+							<input type="radio" name="q1" value="a school">a school<br><br>
+							<input type="radio" name="q1" value="a student">a student<br><br>
+							<input type="radio" name="q1" value="a punishment">a punishment<br><br>
+							<input type="radio" name="q1" value="a syllabus">a syllabus<br><br>
+							<a href="#two" class="button">Prev Question</a>
+							<a href="#four" class="button">Next Question</a>
+						</div>
+					</div>
+					<br>
+					<br>
+					<br id="four">
+					<div class="review_analysis two">
+					<div class="analysis two">
+						<p><b>Q4:</b> The complexity of linear search algoritm is  </p>
+					</div>
+						<div class="Q_inner">
+							<input type="radio" name="q1" value="O(n)">O(n)<br><br>
+							<input type="radio" name="q1" value="O(log n)">O(log n)<br><br>
+							<input type="radio" name="q1" value="O(n^2)">O(n^2)<br><br>
+							<input type="radio" name="q1" value="O(n log n)">O(n log n)<br><br>
+							<a href="#three" class="button">Prev Question</a>
+							<a href="#five" class="button">Next Question</a>
+						</div>
+					</div>
+					<br>
+					<br>
+					<br id="five">
+					<div class="review_analysis two">
+					<div class="analysis two">
+						<p><b>Q5:</b> Search tables used by compilers for efficient searching generally use  </p>
+					</div>
+						<div class="Q_inner">
+							<input type="radio" name="q1" value="Linear lists of records">Linear lists of records<br><br>
+							<input type="radio" name="q1" value="Binary search tables">Binary search tables<br><br>
+							<input type="radio" name="q1" value="Binary search trees">Binary search trees<br><br>
+							<input type="radio" name="q1" value="Hash tables">Hash tables<br><br>
+							<a href="#four" class="button">Prev Question</a>
+							<a href="#six" class="button">Next Question</a>
+						</div>
+					</div>
+					<br>
+					<br>
+					<br id="six">
+					<div class="review_analysis two">
+					<div class="analysis two">
+						<p><b>Q6:</b> What the hell are you doing!Not completing your project in time what should i do with all of you. </p>
+					</div>
+						<div class="Q_inner">
+							<input type="radio" name="q1" value="POP">POP<br><br>
+							<input type="radio" name="q1" value="PGP">PGP<br><br>
+							<input type="radio" name="q1" value="SNMP">SNMP<br><br>
+							<input type="radio" name="q1" value="SNMP">SNMP<br><br>
+							<a href="#five" class="button">Prev Question</a>
+							<a href="#seven" class="button">Next Question</a>
+						</div>
+					</div>
+					<br>
+					<br id="seven">
+					<div class="review_analysis two">
+					<div class="analysis two">
+						<p><b>Q7:</b> What the hell are you doing!Not completing your project in time what should i do with all of you. </p>
+					</div>
+						<div class="Q_inner">
+							<input type="radio" name="q1" value="POP">POP<br><br>
+							<input type="radio" name="q1" value="PGP">PGP<br><br>
+							<input type="radio" name="q1" value="SNMP">SNMP<br><br>
+							<input type="radio" name="q1" value="SNMP">SNMP<br><br>
+							<a href="#six" class="button">Prev Question</a>
+							<a href="#eight" class="button">Next Question</a>
+						</div>
+					</div>
+					<br>
+					<br id="eight">
+					<div class="review_analysis two">
+					<div class="analysis two">
+						<p><b>Q8:</b> What the hell are you doing!Not completing your project in time what should i do with all of you. </p>
+					</div>
+						<div class="Q_inner">
+							<input type="radio" name="q1" value="POP">POP<br><br>
+							<input type="radio" name="q1" value="PGP">PGP<br><br>
+							<input type="radio" name="q1" value="SNMP">SNMP<br><br>
+							<input type="radio" name="q1" value="SNMP">SNMP<br><br>
+							<a href="#seven" class="button">Prev Question</a>
+							<a href="#nine" class="button">Next Question</a>
+						</div>
+					</div>
+					<br>
+					<br id="nine">
+					<div class="review_analysis two">
+					<div class="analysis two">
+						<p><b>Q9:</b> What the hell are you doing!Not completing your project in time what should i do with all of you. </p>
+					</div>
+						<div class="Q_inner">
+							<input type="radio" name="q1" value="POP">POP<br><br>
+							<input type="radio" name="q1" value="PGP">PGP<br><br>
+							<input type="radio" name="q1" value="SNMP">SNMP<br><br>
+							<input type="radio" name="q1" value="SNMP">SNMP<br><br>
+							<a href="#eight" class="button">Prev Question</a>
+							<a href="#ten" class="button">Next Question</a>
+						</div>
+					</div>
+					<br>
+					<br id="ten">
+					<div class="review_analysis two">
+					<div class="analysis two">
+						<p><b>Q10:</b> What the hell are you doing!Not completing your project in time what should i do with all of you. </p>
+					</div>
+						<div class="Q_inner">
+							<input type="radio" name="q1" value="POP">POP<br><br>
+							<input type="radio" name="q1" value="PGP">PGP<br><br>
+							<input type="radio" name="q1" value="SNMP">SNMP<br><br>
+							<input type="radio" name="q1" value="SNMP">SNMP<br><br>
+							<a href="#nine" class="button">Prev Question</a>
+							<input type="submit" name="submit" value="Submit">
+						</div>
+					</div>
+					<br>
+				</form>
+			</div>
+		<div class="Qw_analysis">
+				<div class="Q_analysis">
+					<p>Question Analysis</p>
+				</div>
+				<div class="qn_nm">
+					<ul type="none">
+					<a href="#one"><li>1</li></a>
+					<a href="#two"><li>2</li></a>
+					<a href="#three"><li>3</li></a>
+					<a href="#four"><li>4</li></a>
+					<a href="#five"><li>5</li></a>
+					<a href="#six"><li>6</li></a>
+					<a href="#seven"><li>7</li></a>
+					<a href="#eight"><li>8</li></a>
+					<a href="#nine"><li>9</li></a>
+					<a href="#ten"><li>10</li></a>
+				</ul>
+				</div>
+			</div>
+	</section>
+</body>
+	<script>
+						function countdown( elementName, minutes, seconds )
+						{
+							var element, endTime, hours, mins, msLeft, time;
+
+							function twoDigits( n )
+							{
+								return (n <= 9 ? "0" + n : n);
+							}
+
+							function updateTimer()
+							{
+								msLeft = endTime - (+new Date);
+								if ( msLeft < 1000 ) {
+									element.innerHTML = "Time is up!";
+								} else {
+									time = new Date( msLeft );
+									hours = time.getUTCHours();
+									mins = time.getUTCMinutes();
+									element.innerHTML = (hours ? hours + ':' + twoDigits( mins ) : mins) + ':' + twoDigits( time.getUTCSeconds() );
+									setTimeout( updateTimer, time.getUTCMilliseconds() + 500 );
+								}
+							}
+
+							element = document.getElementById( elementName );
+							endTime = (+new Date) + 1000 * (60*minutes + seconds) + 500;
+							updateTimer();
+						}
+
+						countdown( "ten-countdown", 10, 0 );
+						</script>
+</html>
